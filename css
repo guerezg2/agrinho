@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPONWrt7slND3kC1svzJmJG-DhC5pqTegASrHdwJ6Z1w&s');
+    background-size: cover; /* para garantir que a imagem cubra todo o corpo */
+    background-position: center; /* centralizar a imagem */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente preto */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 800px;
+    margin: 20px    auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para caixas de informações */
+
+.info-box {
+    background-color: #eaf6f6;
+    border-left: 4px solid #008cba;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.info-box h2 {
+    color: #008cba;
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para lista de dicas */
+
+.tips-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.tips-list li {
+    margin-bottom: 10px;
+}
+
+.tips-list li:before {
+    content: "•";
+    color: #008cba;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}document.addEventListener("DOMContentLoaded", function() {
+    // Função para exibir o quiz
+    function exibirQuiz() {
+        // Aqui você pode adicionar o código para exibir o quiz na seção interativa
+        // Por exemplo, você pode criar elementos HTML dinamicamente para as perguntas e opções do quiz
+        // E adicionar esses elementos à div com o id "quiz"
+        alert("Quiz em breve!");
+    }
+
+    // Obter o botão do quiz
+    const botaoQuiz = document.getElementById("quiz-button");
+
+    // Adicionar um ouvinte de evento para o clique no botão do quiz
+    botaoQuiz.addEventListener("click", exibirQuiz);
+});
+
+/* Estilos específicos para a seção interativa */
+
+.interactive-section {
+    text-align: center;
+}
+
+#quiz-button {
+    background-color: #008cba;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#quiz-button:hover {
+    background-color: #005d77;
+}
